@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+header{
+    display: flex;
+    align-items: center;
+    justify-content: right;
+    background-color: rgb(14, 106, 167);
+    align-items: center;
+    padding: 10px;
+    /* background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRUayRS2KAwS17lrS00qHK2Y5hAl5oW_fV8hQ&usqp=CAU"); */
+
+    
+}
+
+nav ul li {
+   
+    display: inline-block;
+    padding-top: 10px;
+    padding-left: 20px;
+    padding-right: 50px;
+    align-items: center;
+    font-weight: 100;
+    font-size: 20px;
+
+}
+
+#imglogo{
+    margin-left: 40px;
+    /* padding-left: 20px; */
+    cursor: pointer;
+    margin-right: auto;
+    width: 60px;
+    border-radius: 5px;
+    background-color:rgb(14, 106, 167) ;
+    
+    
+}
+
+nav ul li a{
+    color: blanchedalmond;
+    text-decoration: none;
+    font-weight: 500;
+    font-family: sans-serif;
+    
+}
+
+nav ul li a:hover{
+   color: black;
+
+}
+
+.ws-name{
+    align-items: center;
+    margin-right: 62%;
+    font-size: 30px;
+    cursor: pointer;
+    font-family: fantasy;
+    font-weight: 100;
+    color: whitesmoke;
+}
+  
+main{
+    width: 100%;
+    position: relative;
+    padding-bottom: 100%;
+    background-color:lemonchiffon;
+    
+   
+}
+
+.wrap{
+    
+   
+    position: absolute;
+    width: 100%;
+
+    
+}
+
+h1{
+   
+    font-size: 50px;
+    font-family: sans-serif;
+    font-weight :100 px;
+    padding-top: 10px;
+    padding-left:35%;
+    padding-bottom: 10px;
+    color: rgb(236, 240, 247);
+    background-color: rgb(50, 150, 196);
+    text-shadow: 1px 1px;
+
+
+}
+
+.footer{
+    
+    position: relative;
+    background-color:rgb(50, 150, 196) ;
+    margin-top: 100%;
+}
+
+#sbar{
+    margin-left: 0;
+    border-radius: 1px;
+    border-width: 4px;
+}
+
+#sspan{
+    margin-left: 15%;
+    border-radius: 1px;
+    border-width: 4px;
+}
+
+#sbtn{
+    
+    
+     margin: 20px auto;
+     margin-right: 20px;
+     border-radius: 4px;
+     background-color:rgb(50, 150, 196) ;
+     font-size: 20px;
+     font-family: sans-serif;
+     color: white;
+     
+}
+
+#sbtn:hover{
+    
+   
+     margin: 20px auto;
+     border-radius: 4px;
+     background-color:rgb(97, 102, 102) ;
+     font-size: 20px;
+     font-family: sans-serif;
+     font-weight: 400;
+}
+
+
+
+#sdiv{
+    
+   margin: auto;
+   margin-left: 550px;
+}
+
+hr{
+    margin-top: 0px;
+}
+
+.image-grid{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+        /* background-image: url("https://wallpaperaccess.com/full/2089151.jpg"); */
+        
+  background-color:lemonchiffon;
+}
+
+.gallery{
+    /* padding: 5px; */
+    align-items: center;
+    margin: 20px; 
+    width: 250px;
+    height: 250px;
+    /* border-style: solid; */
+    border-radius: 5px;
+    cursor: pointer;
+   
+}
+
+.gallery:hover{
+    width: 500px;
+    height: 500px;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
